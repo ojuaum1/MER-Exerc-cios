@@ -1,9 +1,9 @@
---ATIVIDADE DA AULA 5 -- DDL
 
---Criando a Database
+
+--Cria a Database
 CREATE DATABASE Exercicio_1_2
 
---Usando a Database Criada
+--Usa a DB Criada
  use Exercicio_1_2;
  
  CREATE TABLE Cliente(
@@ -11,13 +11,13 @@ CREATE DATABASE Exercicio_1_2
 	Nome VARCHAR(100) NOT NULL,
 	CPF VARCHAR(11) NOT NULL
  )
-
+-- cria a tabela empresa
  CREATE TABLE Empresa(
 	IdEmpresa INT PRIMARY KEY IDENTITY,
 	Nome VARCHAR(100) NOT NULL,
 	CNPJ VARCHAR(14) NOT NULL
  )
-
+-- cria a tabela modelo
  CREATE TABLE Modelo(
 	IdModelo INT PRIMARY KEY IDENTITY,
 	Nome VARCHAR(50) NOT NULL
