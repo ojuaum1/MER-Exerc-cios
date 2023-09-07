@@ -1,16 +1,13 @@
---Início do exercício 6 - DML
-
---Selecionando a tabela desejada
 USE Exercicio_1_2;
 
 
---Inserindo Valores nas tabelas
+--Insere Valores nas tabelas
 INSERT INTO Cliente(Nome,CPF)
 VALUES 
-	('André Basilio','51910007811'),
-	('João Carlos','51718407811'),
-	('João Viktor','01845007811'),
-	('Bentow Rodrygguez','51910098711')
+	('AndrÃ© feio','51910007811'),
+	('JoÃ£o gostoso','51718407811'),
+	('gabi saopaulina','01845007811'),
+	('everton james','51910098711')
 
 INSERT INTO Empresa(Nome,CNPJ)
 VALUES ('Alugueis ltda', '213581239')
