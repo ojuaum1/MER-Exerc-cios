@@ -26,10 +26,10 @@ VALUES
 
 INSERT INTO Veiculo(IdMarca, IdModelo, IdEmpresa, Placa)
 VALUES 
-	(1,1,1,'hud3145'),
-	(2,2,1,'4123els'),
-	(2,3,1,'ha83els'),
-	(1,4,1,'hadesql')
+	(1,1,1,'oie3145'),
+	(2,2,1,'tcu3aie'),
+	(2,3,1,'vamocri'),
+	(1,4,1,'jesusi7')
 
 INSERT INTO Aluguel(IdCliente, IdVeiculo, Datadecadastro, Dataderetirada)
 VALUES 
