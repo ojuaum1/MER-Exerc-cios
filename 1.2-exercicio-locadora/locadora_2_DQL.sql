@@ -1,9 +1,8 @@
---Selecionando a tabela desejada
 USE Exercicio_1_2;
 
 ---DQL
 
---LISTANDO TODOS OS ALUGUEIS E SEUS MODELOS
+--LISTA TODOS OS ALUGUEIS E SEUS MODELOS TO CRAQUE kkkk
 SELECT 
 	Datadecadastro,
 	Dataderetirada,
@@ -29,4 +28,4 @@ RIGHT JOIN Cliente ON Cliente.IdCliente = Aluguel.IdCliente
 LEFT JOIN Veiculo ON Veiculo.IdVeiculo = Aluguel.IdVeiculo
 LEFT JOIN Modelo ON Modelo.IdModelo = Veiculo.IdModelo
 
-WHERE Cliente.Nome = 'Jo„o Carlos' --Insira o nome do cliente aqui
+WHERE Cliente.Nome = 'Jo√£o Carlos' --Insira o nome do cliente aqui
